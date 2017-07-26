@@ -1,13 +1,11 @@
 body {
-	background-image: url(/images/landing.jpg);
-	background-size: cover;
-	color: white;
+	background-color: black;
 }
 
 #brand {
 	font-family: 'Athelas', bold;
-	font-size: 3.5em;
-	margin-top: 0.5em;
+	font-size:  45px;
+	margin-top: 10px;
 	color: white;
 	text-decoration: none;
 }
@@ -18,9 +16,9 @@ html {
 
 ul {
 
-	margin-top: 10em;
+	margin-top:50%;
 	font-family: 'Big Caslon';
-	font-size: 1.5em;
+	font-size: 20px;
 }
 
 li a {
@@ -35,12 +33,9 @@ li a:hover {
 }
 
 video {
-
     position: fixed;
-    min-height: 100%;
-    min-width: 100%;
-    margin-top: 0;
-    margin-left: 0;
+    height: 100%;
+    width: 100%;
     z-index: -100;
 
 }
