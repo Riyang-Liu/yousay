@@ -10,3 +10,26 @@
 .navbar {
 	background-color: white;
 }
+
+h3 {
+	margin-top: 10%;
+	font-family: 'STFangsong';
+	font-size: 50px;
+	position: center;
+	color: #6B6B6B;
+}
+
+hr {
+	margin-top: 2.5%;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-top: 1px solid #0BD1FF;
+}
+
+h6 {
+	font-family: 'Arial', t;
+	font-size: 20px;
+	margin-top: 2.5%;
+	color: #6B6B6B;
+}
+
