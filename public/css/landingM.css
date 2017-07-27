@@ -1,0 +1,38 @@
+body {
+	background-image: url("/images/landing.jpg");
+	background-size: 100% auto; 
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position-y: 40%;
+}
+
+#brand {
+	font-family: 'Athelas', bold;
+	font-size:  45px;
+	margin-top: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+html {
+	height: 100%;
+}
+
+ul {
+
+	margin-top: 50%;
+	font-family: 'Big Caslon';
+	font-size: 20px;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover {
+	margin-left: 0.5em;
+	color: white;
+	text-decoration: none;
+}
+

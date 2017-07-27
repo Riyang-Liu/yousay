@@ -7,6 +7,10 @@ app.get("/", function(req, res){
     res.render("landing");
 });
 
+app.get("/mobile", function(req, res){
+	res.render("landingM");
+})
+
 app.get("/2017SummerSpecial", function(req, res){
 	res.render("seasonalSpecial");
 })
