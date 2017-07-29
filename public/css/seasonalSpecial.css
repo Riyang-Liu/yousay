@@ -12,24 +12,50 @@
 }
 
 h3 {
-	margin-top: 10%;
+	margin-top: 17%;
 	font-family: 'STFangsong';
 	font-size: 50px;
 	position: center;
 	color: #6B6B6B;
 }
 
-hr {
-	margin-top: 2.5%;
-	margin-left: 30%;
-	margin-right: 30%;
-	border-top: 1px solid #0BD1FF;
-}
-
 h6 {
 	font-family: 'Arial', t;
 	font-size: 20px;
-	margin-top: 2.5%;
+	margin-top: 2%;
 	color: #6B6B6B;
+}
+
+#images-galaries {
+	margin-top: 17%;
+}
+
+#img1 {
+	height: auto;
+	width: 110%;
+}
+
+#img2 {
+	width: 82%;
+	height: auto;
+}
+
+#img3 {
+	width: 120%;
+	height: auto;
+	margin-left: -10%;
+}
+
+#img4 {
+	width: 131%;
+	height: auto;
+	margin-top: -18%
+}
+
+#img5 {
+	width: 77%;
+	height: 79%;
+	margin-left: 29.5%;
+	margin-top: 7.5%;
 }
 
