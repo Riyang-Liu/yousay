@@ -11,7 +11,7 @@
 	background-color: white;
 }
 
-h3 {
+.h3 {
 	margin-top: 17%;
 	font-family: 'STFangsong';
 	font-size: 50px;
@@ -20,9 +20,14 @@ h3 {
 }
 
 h6 {
-	font-family: 'Arial', t;
+	font-family: 'Arial';
 	font-size: 20px;
 	margin-top: 2%;
+	color: #6B6B6B;
+}
+
+.leftOne {
+	font-family: 'Arial';
 	color: #6B6B6B;
 }
 
@@ -58,4 +63,28 @@ h6 {
 	margin-left: 29.5%;
 	margin-top: 7.5%;
 }
+
+#twoImagesContainer {
+	padding:0px;
+	margin-top: 6%;
+}
+
+#img7 {
+	width: 100%;
+	height: auto;
+	margin-top: -6%;
+}
+
+#borderOne {
+
+	border-left: 1px #C1C1C1 solid;
+	padding-left: 4%;
+	height: 32%;
+}
+
+#leftText {
+	margin-top: 5%;
+	margin-left: 12%;
+}
+
 
