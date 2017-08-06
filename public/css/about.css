@@ -1,0 +1,24 @@
+.navbar-light .navbar-nav .nav-link{
+	font-family: 'Athelas', bold;
+}
+
+.navbar-brand {
+	font-family: 'Athelas', bold;
+	font-size: 30px;
+}
+
+.navbar {
+	background-color: white;
+}
+
+.container {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.text {
+	margin-bottom: 2px;
+	font-family: 'Univers LT W02 55 Roman',sans-serif;
+	color: #B7B7B7;
+	font-size: 1vw;
+}
