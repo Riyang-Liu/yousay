@@ -22,3 +22,12 @@
 	color: #B7B7B7;
 	font-size: 1vw;
 }
+
+.bg-text {
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 15%;
+	font-family: "Big Caslon";
+	font-size: 2.5vw;
+	color: black;
+}

@@ -1,0 +1,12 @@
+.navbar-light .navbar-nav .nav-link{
+	font-family: 'Athelas', bold;
+}
+
+.navbar-brand {
+	font-family: 'Athelas', bold;
+	font-size: 30px;
+}
+
+.navbar {
+	background-color: white;
+}
