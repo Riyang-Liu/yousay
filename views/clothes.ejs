@@ -10,9 +10,9 @@
   <a class="navbar-brand" href="/">YOUSAY</a>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
+      <!--<li class="nav-item">
         <a class="nav-link" href="#">About</a>
-      </li>
+      </li>-->
       <li class="nav-item">
         <a class="nav-link" href="/contact">Contact</a>
       </li>
@@ -38,12 +38,12 @@
     </div>
     <div id="clothes-description" class="col-6 text-center my-auto">
       <p3><%= clothes.name %></p3>
-      <p6><%= clothes.descriptioin %></p6>
+      <p6 class="content"><%= clothes.descriptioin %></p6>
       <div class="img mx-auto">
         <img src="/images/black-red.png" class="img-fluid" alt="Responsive image">
       </div>
       <p5>RMB <%= clothes.price %></p5>
-      <p6><%= clothes.status%></p6>
+      <p6 class="content"><%= clothes.status %></p6>
     </div>
   </div>
 </div>

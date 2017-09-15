@@ -12,8 +12,7 @@
 }
 
 #nav-hr {
-  position: absolute;
-  width: 16%;
+  width: 15.5%;
   margin-left: 0px;
   margin-top: -2px;
 }
@@ -31,8 +30,11 @@
 }
 
 p6 {
-  display: block;
   font-size: 2vw;
+}
+
+.content {
+	display: block;
 }
 
 p3 {
