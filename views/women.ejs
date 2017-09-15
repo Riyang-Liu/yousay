@@ -1,8 +1,9 @@
 <% include ../partials/header %>
 
 <link rel="stylesheet" type="text/css" href="/css/women.css">
+<script type="text/javascript" src="/js/women.js"></script>
 
-<!--------------------- Nav bar ------------------------>
+<!--                             Nav bar                      -->
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -31,9 +32,35 @@
 
 
 
-<!----------------------- background image -------------------->
+<!--                      background image                  -->
 <img src="/images/women.png" class="img-fluid" alt="Responsive image">
 <hr>
+
+<!--                      body parts                        -->
+<div class="container">
+  <div class="row">
+    <div id="leftBox" class="col-2">
+      <h4 class="selection">上衣</h4>
+      <hr class="separationLine">
+      <h4 class="selection">下衣</h4>
+      <hr class="separationLine">
+      <h4 class="selection">连衣裙</h4>
+      <hr class="separationLine">
+      <h4 class="selection">配件</h4>
+    </div>
+    <div class="col">
+        <% clothes.forEach(function(item){ %>
+          <div class="card">
+            <a href="/women/<%= item._id %>"><img id="clothes-imgs" class="card-img-top img-fluid" src=" <%= item.link %>" alt="Card image cap Responsive image"></a>
+            <div class="card-block">
+              <h4 class="card-title"><%= item.name %></h4>
+              <p class="card-text">RMB <%= item.price %></p>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+  </div>
+</div>
 
 
 <% include ../partials/footer %>

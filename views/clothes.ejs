@@ -1,0 +1,51 @@
+<% include ../partials/header %>
+<link rel="stylesheet" type="text/css" href="/css/clothes.css">
+
+<!--                    Nav bar                       -->
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <a class="navbar-brand" href="/">YOUSAY</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+<!--                mini navigation               -->
+<div class="mini">
+<a id="a" class="nav-header" href="/women">women<a>
+<h6 class="nav-header">/<%= clothes.name %></h6>
+</div>
+<hr id="nav-hr">
+
+<!--                clothing picture              -->
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <img src="<%= clothes.link %>" class="img-fluid" alt="Responsive image">
+    </div>
+    <div id="clothes-description" class="col-6 text-center my-auto">
+      <p3><%= clothes.name %></p3>
+      <p6><%= clothes.descriptioin %></p6>
+      <div class="img mx-auto">
+        <img src="/images/black-red.png" class="img-fluid" alt="Responsive image">
+      </div>
+      <p5>RMB <%= clothes.price %></p5>
+      <p6><%= clothes.status%></p6>
+    </div>
+  </div>
+</div>
+
+<% include ../partials/footer %>
