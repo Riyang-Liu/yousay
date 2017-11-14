@@ -21,4 +21,9 @@
     "url": "https://github.com/Riyang-Liu/yousay/issues"
   },
   "homepage": "https://github.com/Riyang-Liu/yousay#readme"
+
+  "engines":{
+    "node":"7.4.0",
+    "npm":"4.0.5"
+    }
 }
