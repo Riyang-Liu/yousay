@@ -1,15 +1,24 @@
 {
   "name": "yousay",
   "version": "1.0.0",
-  "description": "",
+  "description": "Yousay website",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "author": "",
+  "author": "Riyang Liu",
   "license": "ISC",
   "dependencies": {
     "mongoose": "^4.11.11"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riyang-Liu/yousay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Riyang-Liu/yousay/issues"
+  },
+  "homepage": "https://github.com/Riyang-Liu/yousay#readme"
 }

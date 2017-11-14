@@ -1,14 +1,14 @@
 var express = require('express');
 var app = express();
 var mongoose = require('mongoose');
-var Clothes = require('./models/clothes');
+/*var Clothes = require('./models/clothes');
 var mongoDB = 'mongodb://riyangl:test@ds153775.mlab.com:53775/yousay';
 
 //connecting mongoDB
 mongoose.connect(mongoDB);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'mongoDB connection error:'));
-
+*/
 //save clothes object to the database
 /*
 var clothes_one = new Clothes({
@@ -64,15 +64,15 @@ app.get("/2017SummerSpecial", function(req, res){
 	res.render("seasonalSpecial");
 })
 
-app.get("/women", function(req, res){
+/*app.get("/women", function(req, res){
   Clothes.find({}, function(err, clothes){
     if (err) return handleError(err);
     else {
       res.render("women", {clothes: clothes});
     }
   })
-})
-
+})*/
+/*
 app.get("/women/:id", function(req, res){
   var id = req.params.id;
   Clothes.findById(id, function(err, clothes){
@@ -81,7 +81,7 @@ app.get("/women/:id", function(req, res){
       res.render("clothes", {clothes: clothes});
     }
   })
-})
+})*/
 
 app.get("/about", function(req, res){
 	res.render("about");
