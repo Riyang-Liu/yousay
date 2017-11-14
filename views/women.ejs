@@ -40,15 +40,15 @@
 <div class="container">
   <div class="row">
     <div id="leftBox" class="col-2">
-      <h4 class="selection">上衣</h4>
+      <a href="/women" id="top" class="selection">上衣</a>
       <hr class="separationLine">
-      <h4 class="selection">下衣</h4>
+      <a href="/women" id="bottom" class="selection">下衣</a>
       <hr class="separationLine">
-      <h4 class="selection">连衣裙</h4>
+      <a href="/women" id="dress" class="selection">连衣裙</a>
       <hr class="separationLine">
-      <h4 class="selection">配件</h4>
+      <a href="/women" id="accessory" class="selection">配件</a>
     </div>
-    <div class="col">
+    <div id="rightBox" class="col">
         <% clothes.forEach(function(item){ %>
           <div class="card">
             <a href="/women/<%= item._id %>"><img id="clothes-imgs" class="card-img-top img-fluid" src=" <%= item.link %>" alt="Card image cap Responsive image"></a>

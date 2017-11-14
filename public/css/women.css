@@ -59,3 +59,7 @@ p {
 	color: #6B6B6B;
 	text-decoration: none;
 }
+
+a.selection {
+	text-decoration: none;
+}
